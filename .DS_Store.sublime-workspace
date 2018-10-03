@@ -1,0 +1,640 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pa",
+				"parseInt"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"ar",
+				"array_of_delete"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"rem",
+				"remove"
+			],
+			[
+				"typ",
+				"type"
+			],
+			[
+				"use",
+				"user_id"
+			],
+			[
+				"id",
+				"idxd"
+			],
+			[
+				"u",
+				"user_id"
+			],
+			[
+				"delete",
+				"delete_status"
+			],
+			[
+				"ty",
+				"type"
+			],
+			[
+				"pae",
+				"parseInt"
+			],
+			[
+				"a",
+				"attr"
+			],
+			[
+				"l",
+				"link"
+			],
+			[
+				"de",
+				"default"
+			],
+			[
+				"t",
+				"temp"
+			],
+			[
+				"tex",
+				"text"
+			],
+			[
+				"da",
+				"data_post"
+			],
+			[
+				"va",
+				"var_1"
+			],
+			[
+				"post",
+				"post_id"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"ta",
+				"targetPath"
+			],
+			[
+				"se",
+				"sessionS"
+			],
+			[
+				"pat",
+				"path"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"te",
+				"textarea\tTag"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"user",
+				"user_name"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"log",
+				"login"
+			],
+			[
+				"ass",
+				"assets"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"for",
+				"form\tTag"
+			],
+			[
+				"p",
+				"placeholder\tAttr"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"s",
+				"style\tAttr"
+			],
+			[
+				"is",
+				"ist_test"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"remo",
+				"removeClass"
+			],
+			[
+				"time",
+				"time_leng"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"globa",
+				"global"
+			],
+			[
+				"doc",
+				"doctor"
+			],
+			[
+				"patien",
+				"patient_details"
+			],
+			[
+				"this",
+				"this"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"mari",
+				"margin"
+			],
+			[
+				"st",
+				"style\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 2152,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 318.0,
+		"last_filter": "packa",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 494.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/indrajith/server/html/mini-project-2017/php_project"
+	],
+	"file_history":
+	[
+		"/home/indrajith/server/html/ist_test/share/assets/css/style_000.css",
+		"/home/indrajith/server/html/ist_test/share/download.php",
+		"/home/indrajith/server/html/ist_test/share/new_user.php",
+		"/home/indrajith/server/html/Bproject/patient/footer.php",
+		"/home/indrajith/server/html/ist_test/share/upload.php",
+		"/home/indrajith/server/html/tech_teach/upload.php",
+		"/home/indrajith/server/html/ist_test/share/index.php",
+		"/home/indrajith/server/html/tech_teach/includes/db.php",
+		"/home/indrajith/server/html/Bproject/functions.php",
+		"/home/indrajith/server/html/Bproject/admin/profile.php",
+		"/home/indrajith/server/html/Bproject/assets/css/style_002.css",
+		"/home/indrajith/server/html/Bproject/assets/css/style_003.css",
+		"/home/indrajith/server/html/Bproject/assets/js/javascript_001.js",
+		"/home/indrajith/server/html/Bproject/index.php",
+		"/home/indrajith/server/html/Bproject/admin/index.php",
+		"/home/indrajith/.cache/.fr-WtQw0S/Drag drop file upload/ajax_fileupload.php",
+		"/home/indrajith/.cache/.fr-Vx8XsZ/Drag drop file upload/ajax_fileupload.php",
+		"/home/indrajith/server/html/tech_teach/teacher/header.php",
+		"/home/indrajith/server/html/index.html",
+		"/home/indrajith/server/html/ist_test/share/includes/db.php",
+		"/home/indrajith/server/html/ist_test/index.php",
+		"/home/indrajith/.cache/.fr-IKmTtz/Drag drop file upload/filereader.js",
+		"/home/indrajith/.cache/.fr-PsxbI0/Drag drop file upload/index.html",
+		"/home/indrajith/server/html/tech_teach/assets/js/custom.js",
+		"/home/indrajith/server/html/ist_test/share/user/logout.php",
+		"/home/indrajith/server/html/Bproject/patient/header.php",
+		"/home/indrajith/server/html/ist_test/share/assets/js/._jquery-ui.min.js",
+		"/home/indrajith/server/html/ist_test/share/assets/lobibox/js/notifications.min.js",
+		"/home/indrajith/server/html/ist_test/share/assets/lobibox/js/lobibox.min.js",
+		"/home/indrajith/server/html/ist_test/share/assets/lobibox/js/notifications.js",
+		"/home/indrajith/server/html/Bproject/assets/js/javascript_002.js",
+		"/home/indrajith/server/html/ist_test/share/uploads/index.php",
+		"/home/indrajith/server/html/System-404-505/custom_403.php",
+		"/home/indrajith/server/html/System-404-505/custom_404.php",
+		"/home/indrajith/server/html/Bproject/admin/header.php",
+		"/home/indrajith/server/html/System-404-505/index.php",
+		"/home/indrajith/server/html/System-404-505/style.css",
+		"/home/indrajith/server/html/System-404-505/index.html",
+		"/home/indrajith/server/html/custom_50x.html",
+		"/home/indrajith/server/html/custom_404.html",
+		"/home/indrajith/server/html/php_project/includes/connection.php",
+		"/home/indrajith/server/html/php-forms-sql/login.php",
+		"/home/indrajith/server/html/php-forms-sql/edit_books.php",
+		"/home/indrajith/server/html/php-forms-sql/view_books.php",
+		"/home/indrajith/server/html/php-forms-sql/2-form.php",
+		"/home/indrajith/server/html/Bproject/doctor/header.php",
+		"/home/indrajith/server/html/Bproject/patient/video.php",
+		"/home/indrajith/server/html/Bproject/assets/js/javascript_003.js",
+		"/home/indrajith/server/html/Bproject/patient/video_.php",
+		"/home/indrajith/server/html/Bproject/patient/prescription.php",
+		"/home/indrajith/server/html/Bproject/assets/js/javascript_004.js",
+		"/home/indrajith/server/html/Bproject/ajax.php",
+		"/home/indrajith/server/html/Bproject/assets/css/style_004.css",
+		"/home/indrajith/server/html/Bproject/doctor/video.php",
+		"/home/indrajith/server/html/Bproject/video.php",
+		"/home/indrajith/server/html/Bproject/includes/db.php",
+		"/home/indrajith/server/html/tech_teach/video.php",
+		"/home/indrajith/server/html/ist_test/test_study_new/SimpleWebRTC-master/index.html",
+		"/home/indrajith/server/html/Bproject/assets/SimpleWebRTC/simplewebrtc.bundle.js"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 144.0,
+		"where_history":
+		[
+			"<current file>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"content",
+			"add_a_po_st",
+			"console.log",
+			"globa_array_of_name_of_files_for_delete",
+			"user_name",
+			"deleted",
+			"update",
+			"here_tha_67",
+			"new_post",
+			"war",
+			"worn",
+			"post_last_a",
+			"tooltip",
+			"goToByScroll",
+			"scroll",
+			"()",
+			"coo",
+			"ko",
+			"koo",
+			"koc",
+			"http://",
+			"\"http://'.ROOT_LOC",
+			"updatene",
+			"?>",
+			"<?php",
+			"'http:\\/\\/.ROOT_LOC",
+			"uptodate",
+			"uptudate_post",
+			"max-width: 600px;",
+			"echo ''.PATH.'/post/'.$value['attachment'];",
+			" max-width: 100px; max-height: 100px; width: 100px; height: auto;\"",
+			"max-width: 100px; max-height: 100px; width: auto; height: auto;  \"",
+			" max-width: 100px; max-height: 100px; width: auto; height: auto;\"",
+			"div_les_edu454445",
+			"();\n",
+			"row each_post",
+			"insertInToComm",
+			"error",
+			"add_a_post_by_teacher",
+			"add-a-post-by-teacher",
+			"add_a_po_st",
+			"ajax_url",
+			"delete_a_file_from_dir",
+			"delete_this_file",
+			"ajax_url",
+			"style=\"top: -30px;left: 85px; background-color: white;\"",
+			"style=\"position: absolute;top: 279px; background-color: white;\"",
+			"style=\"top: -30px;left: 85px;\"",
+			"style=\"position: absolute;top: 279px;\"",
+			"globa_array_of_name_of_files_for_delete",
+			"'http://'.$_SERVER['SERVER_NAME'].'/tech_teach/uploads/'",
+			"  ",
+			"btnSubmit_this",
+			"upad_any_item_1",
+			"postFotterinnr",
+			"uplad_a_item_ty_4",
+			"inlineAPF",
+			"uplad_a_item_ty_4",
+			"();\n",
+			">\n",
+			"add_a_po_st",
+			">\n",
+			");\n",
+			"aimage_base",
+			"aadanimage",
+			"background_css3",
+			"bolla.transit",
+			"console.log",
+			"soundPath",
+			"textarea",
+			"Lobibox",
+			"notify",
+			" \n",
+			"orm-control-feedbac",
+			"glyphicon-ok",
+			"glyphicon",
+			"add_user",
+			"apadanimage",
+			"upadanimage",
+			"my_butto",
+			"chek_imag",
+			"dmodel",
+			"upladimageprofselectf",
+			"signupPasswordagain",
+			"passstrength",
+			"has-error",
+			"help-inline",
+			"and_user_msg",
+			"show_status",
+			";\n",
+			"}\n",
+			" \n",
+			"6b635e",
+			"afa196",
+			"../",
+			" \n",
+			"set_image_",
+			"here_the_new_main",
+			")()",
+			"assets",
+			"check_call_acept",
+			"id_end_th",
+			"2",
+			"id_show_this_messages1",
+			"get_new_",
+			"get-new-",
+			"get_a_value_from_db",
+			"div_in_call",
+			"div_wait_call",
+			"click_show",
+			"return_pa",
+			"get_pa",
+			"get-",
+			"patient",
+			"call_taken",
+			"takTheVidoCall",
+			"call_taken",
+			"takTheVidoCall",
+			"time_between",
+			"$image0p",
+			"endTheVidoCall",
+			"update",
+			"id_end_th",
+			"html",
+			"mic",
+			">\n",
+			"set_image_",
+			"doctor"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"//console.log",
+			"\"'.ROOT_LOC",
+			"http://'.ROOT_LOC",
+			"http://.ROOT_LOC'",
+			"max-width: 99%;",
+			"echo $dir.'user/post/'.basename($targetPath_new);",
+			" max-width:100%; max-height:500px; width:auto; height:auto;\"",
+			" div_les_edu454445_here",
+			" ",
+			"$dir.'user/uploads/'",
+			"//console.log",
+			"eab4b4",
+			"fff",
+			"",
+			"../assets",
+			"#005de9",
+			"1ee90066",
+			"1ee900"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2152,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 48.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 58.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": ".DS_Store.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 318.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"$element"
+			]
+		],
+		"width": 606.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 134.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

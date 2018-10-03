@@ -1,0 +1,923 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pass",
+				"password"
+			],
+			[
+				"use",
+				"userid"
+			],
+			[
+				"sub",
+				"submit"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"pa",
+				"parseInt"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"ar",
+				"array_of_delete"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"rem",
+				"remove"
+			],
+			[
+				"typ",
+				"type"
+			],
+			[
+				"id",
+				"idxd"
+			],
+			[
+				"u",
+				"user_id"
+			],
+			[
+				"delete",
+				"delete_status"
+			],
+			[
+				"ty",
+				"type"
+			],
+			[
+				"pae",
+				"parseInt"
+			],
+			[
+				"a",
+				"attr"
+			],
+			[
+				"l",
+				"link"
+			],
+			[
+				"de",
+				"default"
+			],
+			[
+				"t",
+				"temp"
+			],
+			[
+				"tex",
+				"text"
+			],
+			[
+				"da",
+				"data_post"
+			],
+			[
+				"post",
+				"post_id"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"ta",
+				"targetPath"
+			],
+			[
+				"se",
+				"sessionS"
+			],
+			[
+				"pat",
+				"path"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"te",
+				"textarea\tTag"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"user",
+				"user_name"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"log",
+				"login"
+			],
+			[
+				"ass",
+				"assets"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"for",
+				"form\tTag"
+			],
+			[
+				"p",
+				"placeholder\tAttr"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"s",
+				"style\tAttr"
+			],
+			[
+				"is",
+				"ist_test"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"remo",
+				"removeClass"
+			],
+			[
+				"time",
+				"time_leng"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"globa",
+				"global"
+			],
+			[
+				"doc",
+				"doctor"
+			],
+			[
+				"patien",
+				"patient_details"
+			],
+			[
+				"this",
+				"this"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"mari",
+				"margin"
+			],
+			[
+				"st",
+				"style\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 2152,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "login.php",
+			"settings":
+			{
+				"buffer_size": 2818,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 3479,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "includes/functions.php",
+			"settings":
+			{
+				"buffer_size": 653,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "includes/connection.php",
+			"settings":
+			{
+				"buffer_size": 1624,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "[Unit]\nDescription=Tomcat9\nAfter=network.target\n\n[Service]\nType=forking\nUser=tomcat9\nGroup=tomcat9\n\nEnvironment=CATALINA_PID=/opt/tomcat8/tomcat9.pid\nEnvironment=JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64\nEnvironment=CATALINA_HOME=/opt/tomcat8\nEnvironment=CATALINA_BASE=/opt/tomcat8\nEnvironment=\"CATALINA_OPTS=-Xms512m -Xmx512m\"\nEnvironment=\"JAVA_OPTS=-Dfile.encoding=UTF-8 -Dnet.sf.ehcache.skipUpdateCheck=true -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -XX:+UseParNewGC\"\n\nExecStart=/opt/tomcat8/bin/startup.sh\nExecStop=/opt/tomcat8/bin/shutdown.sh\n\n[Install]\nWantedBy=multi-user.target\n\n\n\n\n[Unit]\nDescription=Apache Tomcat Web Server\nAfter=network.target\n\n[Service]\nType=forking\n\nEnvironment=JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre\nEnvironment=CATALINA_PID=/opt/tomcat9/temp/tomcat9.pid\nEnvironment=CATALINA_HOME=/opt/tomcat9\nEnvironment=CATALINA_BASE=/opt/tomcat9\nEnvironment='CATALINA_OPTS=-Xms512M -Xmx1024M -server -XX:+UseParallelGC'\nEnvironment='JAVA_OPTS=-Djava.awt.headless=true -Djava.security.egd=file:/dev/./urandom'\n\nExecStart=/opt/tomcat9/bin/startup.sh\nExecStop=/opt/tomcat9/bin/shutdown.sh\n\nUser=tomcat\nGroup=tomcat\nUMask=0007\nRestartSec=15\nRestart=always\n\n[Install]\nWantedBy=multi-user.target",
+			"settings":
+			{
+				"buffer_size": 1230,
+				"line_ending": "Unix",
+				"name": "[Unit]"
+			}
+		},
+		{
+			"file": "/etc/systemd/system/tomcat.service",
+			"settings":
+			{
+				"buffer_size": 626,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/indrajith/server/html/Bproject/functions.php",
+			"settings":
+			{
+				"buffer_size": 108268,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 318.0,
+		"last_filter": "packa",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 494.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/indrajith/server/html/mini-project-2017/php_project",
+		"/home/indrajith/server/html/mini-project-2017/php_project/admin",
+		"/home/indrajith/server/html/mini-project-2017/php_project/includes"
+	],
+	"file_history":
+	[
+		"/opt/tomcat9/conf/web.xml",
+		"/opt/tomcat9/conf/tomcat-users.xml",
+		"/etc/environment",
+		"/home/indrajith/Temp/conf/tomcat-users.xml",
+		"/etc/php/7.0/apache2/php.ini",
+		"/home/indrajith/server/html/ist_test/share/assets/css/style_000.css",
+		"/home/indrajith/server/html/ist_test/share/download.php",
+		"/home/indrajith/server/html/ist_test/share/new_user.php",
+		"/home/indrajith/server/html/Bproject/patient/footer.php",
+		"/home/indrajith/server/html/ist_test/share/upload.php",
+		"/home/indrajith/server/html/tech_teach/upload.php",
+		"/home/indrajith/server/html/ist_test/share/index.php",
+		"/home/indrajith/server/html/tech_teach/includes/db.php",
+		"/home/indrajith/server/html/Bproject/functions.php",
+		"/home/indrajith/server/html/Bproject/admin/profile.php",
+		"/home/indrajith/server/html/Bproject/assets/css/style_002.css",
+		"/home/indrajith/server/html/Bproject/assets/css/style_003.css",
+		"/home/indrajith/server/html/Bproject/assets/js/javascript_001.js",
+		"/home/indrajith/server/html/Bproject/index.php",
+		"/home/indrajith/server/html/Bproject/admin/index.php",
+		"/home/indrajith/.cache/.fr-WtQw0S/Drag drop file upload/ajax_fileupload.php",
+		"/home/indrajith/.cache/.fr-Vx8XsZ/Drag drop file upload/ajax_fileupload.php",
+		"/home/indrajith/server/html/tech_teach/teacher/header.php",
+		"/home/indrajith/server/html/index.html",
+		"/home/indrajith/server/html/ist_test/share/includes/db.php",
+		"/home/indrajith/server/html/ist_test/index.php",
+		"/home/indrajith/.cache/.fr-IKmTtz/Drag drop file upload/filereader.js",
+		"/home/indrajith/.cache/.fr-PsxbI0/Drag drop file upload/index.html",
+		"/home/indrajith/server/html/tech_teach/assets/js/custom.js",
+		"/home/indrajith/server/html/ist_test/share/user/logout.php",
+		"/home/indrajith/server/html/Bproject/patient/header.php",
+		"/home/indrajith/server/html/ist_test/share/assets/js/._jquery-ui.min.js",
+		"/home/indrajith/server/html/ist_test/share/assets/lobibox/js/notifications.min.js",
+		"/home/indrajith/server/html/ist_test/share/assets/lobibox/js/lobibox.min.js",
+		"/home/indrajith/server/html/ist_test/share/assets/lobibox/js/notifications.js",
+		"/home/indrajith/server/html/Bproject/assets/js/javascript_002.js",
+		"/home/indrajith/server/html/ist_test/share/uploads/index.php",
+		"/home/indrajith/server/html/System-404-505/custom_403.php",
+		"/home/indrajith/server/html/System-404-505/custom_404.php",
+		"/home/indrajith/server/html/Bproject/admin/header.php",
+		"/home/indrajith/server/html/System-404-505/index.php",
+		"/home/indrajith/server/html/System-404-505/style.css",
+		"/home/indrajith/server/html/System-404-505/index.html",
+		"/home/indrajith/server/html/custom_50x.html",
+		"/home/indrajith/server/html/custom_404.html",
+		"/home/indrajith/server/html/php_project/includes/connection.php",
+		"/home/indrajith/server/html/php-forms-sql/login.php",
+		"/home/indrajith/server/html/php-forms-sql/edit_books.php",
+		"/home/indrajith/server/html/php-forms-sql/view_books.php",
+		"/home/indrajith/server/html/php-forms-sql/2-form.php",
+		"/home/indrajith/server/html/Bproject/doctor/header.php",
+		"/home/indrajith/server/html/Bproject/patient/video.php",
+		"/home/indrajith/server/html/Bproject/assets/js/javascript_003.js",
+		"/home/indrajith/server/html/Bproject/patient/video_.php",
+		"/home/indrajith/server/html/Bproject/patient/prescription.php",
+		"/home/indrajith/server/html/Bproject/assets/js/javascript_004.js",
+		"/home/indrajith/server/html/Bproject/ajax.php",
+		"/home/indrajith/server/html/Bproject/assets/css/style_004.css",
+		"/home/indrajith/server/html/Bproject/doctor/video.php",
+		"/home/indrajith/server/html/Bproject/video.php",
+		"/home/indrajith/server/html/Bproject/includes/db.php",
+		"/home/indrajith/server/html/tech_teach/video.php",
+		"/home/indrajith/server/html/ist_test/test_study_new/SimpleWebRTC-master/index.html",
+		"/home/indrajith/server/html/Bproject/assets/SimpleWebRTC/simplewebrtc.bundle.js"
+	],
+	"find":
+	{
+		"height": 64.0
+	},
+	"find_in_files":
+	{
+		"height": 144.0,
+		"where_history":
+		[
+			"<current file>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"tomcat-latest",
+			"listing",
+			"DIRECTORY",
+			"content",
+			"add_a_po_st",
+			"console.log",
+			"globa_array_of_name_of_files_for_delete",
+			"user_name",
+			"deleted",
+			"update",
+			"here_tha_67",
+			"new_post",
+			"war",
+			"worn",
+			"post_last_a",
+			"tooltip",
+			"goToByScroll",
+			"scroll",
+			"()",
+			"coo",
+			"ko",
+			"koo",
+			"koc",
+			"http://",
+			"\"http://'.ROOT_LOC",
+			"updatene",
+			"?>",
+			"<?php",
+			"'http:\\/\\/.ROOT_LOC",
+			"uptodate",
+			"uptudate_post",
+			"max-width: 600px;",
+			"echo ''.PATH.'/post/'.$value['attachment'];",
+			" max-width: 100px; max-height: 100px; width: 100px; height: auto;\"",
+			"max-width: 100px; max-height: 100px; width: auto; height: auto;  \"",
+			" max-width: 100px; max-height: 100px; width: auto; height: auto;\"",
+			"div_les_edu454445",
+			"();\n",
+			"row each_post",
+			"insertInToComm",
+			"error",
+			"add_a_post_by_teacher",
+			"add-a-post-by-teacher",
+			"add_a_po_st",
+			"ajax_url",
+			"delete_a_file_from_dir",
+			"delete_this_file",
+			"ajax_url",
+			"style=\"top: -30px;left: 85px; background-color: white;\"",
+			"style=\"position: absolute;top: 279px; background-color: white;\"",
+			"style=\"top: -30px;left: 85px;\"",
+			"style=\"position: absolute;top: 279px;\"",
+			"globa_array_of_name_of_files_for_delete",
+			"'http://'.$_SERVER['SERVER_NAME'].'/tech_teach/uploads/'",
+			"  ",
+			"btnSubmit_this",
+			"upad_any_item_1",
+			"postFotterinnr",
+			"uplad_a_item_ty_4",
+			"inlineAPF",
+			"uplad_a_item_ty_4",
+			"();\n",
+			">\n",
+			"add_a_po_st",
+			">\n",
+			");\n",
+			"aimage_base",
+			"aadanimage",
+			"background_css3",
+			"bolla.transit",
+			"console.log",
+			"soundPath",
+			"textarea",
+			"Lobibox",
+			"notify",
+			" \n",
+			"orm-control-feedbac",
+			"glyphicon-ok",
+			"glyphicon",
+			"add_user",
+			"apadanimage",
+			"upadanimage",
+			"my_butto",
+			"chek_imag",
+			"dmodel",
+			"upladimageprofselectf",
+			"signupPasswordagain",
+			"passstrength",
+			"has-error",
+			"help-inline",
+			"and_user_msg",
+			"show_status",
+			";\n",
+			"}\n",
+			" \n",
+			"6b635e",
+			"afa196",
+			"../",
+			" \n",
+			"set_image_",
+			"here_the_new_main",
+			")()",
+			"assets",
+			"check_call_acept",
+			"id_end_th",
+			"2",
+			"id_show_this_messages1",
+			"get_new_",
+			"get-new-",
+			"get_a_value_from_db",
+			"div_in_call",
+			"div_wait_call",
+			"click_show",
+			"return_pa",
+			"get_pa",
+			"get-",
+			"patient",
+			"call_taken",
+			"takTheVidoCall",
+			"call_taken",
+			"takTheVidoCall",
+			"time_between",
+			"$image0p",
+			"endTheVidoCall",
+			"update",
+			"id_end_th",
+			"html",
+			"mic"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"tomcat9",
+			"tomcat8",
+			"//console.log",
+			"\"'.ROOT_LOC",
+			"http://'.ROOT_LOC",
+			"http://.ROOT_LOC'",
+			"max-width: 99%;",
+			"echo $dir.'user/post/'.basename($targetPath_new);",
+			" max-width:100%; max-height:500px; width:auto; height:auto;\"",
+			" div_les_edu454445_here",
+			" ",
+			"$dir.'user/uploads/'",
+			"//console.log",
+			"eab4b4",
+			"fff",
+			"",
+			"../assets",
+			"#005de9",
+			"1ee90066",
+			"1ee900"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2152,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "login.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2818,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								827,
+								827
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 528.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "header.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3479,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "includes/functions.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 653,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								653,
+								653
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "includes/connection.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1624,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								157,
+								157
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1230,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								604,
+								604
+							]
+						],
+						"settings":
+						{
+							"auto_name": "[Unit]",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 306.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/etc/systemd/system/tomcat.service",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 626,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								626,
+								626
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/home/indrajith/server/html/Bproject/functions.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 108268,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11874,
+								11874
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 7650.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 58.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 104.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 318.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"$element"
+			]
+		],
+		"width": 606.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 134.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
